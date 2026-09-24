@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+
+    tables:
+      - name: properties
+      - name: rent_roll
+      - name: expenses
+      - name: maintenance

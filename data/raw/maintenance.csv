@@ -1,0 +1,113 @@
+work_order_id,property_name,unit_number,reported_date,completed_date,category,status,vendor,cost,notes
+WO00001,1842 N Kedzie Ave,9,2026-09-13,,Plumbing,Open,Windy City HVAC,675,Plumbing service request
+WO00002,1842 Kedzie,8,2026-08-02,2026-08-05,Electrical,Completed,Chicago Electric,400,Electrical service request
+WO00003,1842 N Kedzie Ave,5,2026-08-15,,Electrical,Open,Northside Handyman,250,Electrical service request
+WO00004,1842 N Kedzie Ave,10,2026-09-02,2026-09-11,Plumbing,Completed,Chicago Electric,300,Plumbing service request
+WO00005,1842 N Kedzie Ave,3,2026-09-08,2026-09-11,Electrical,COMPLETE,Lakeside Contractors,800,Electrical service request
+WO00006,1842 N Kedzie Ave,5,2026-08-03,2026-08-07,Appliance,Completed,Lakeside Contractors,800,Appliance service request
+WO00007,1842 N Kedzie Ave,4,2026-08-15,2026-08-20,Pest Control,Completed,Windy City HVAC,675,Pest Control service request
+WO00008,1842 Kedzie,5,2026-09-13,,Appliance,Open,Windy City HVAC,700,Appliance service request
+WO00009,1842 N Kedzie Ave,10,2026-09-02,2026-09-05,Pest Control,Completed,ABC Plumbing,300,Pest Control service request
+WO00010,2715 W Diversey Ave,4,2026-08-17,2026-08-25,Pest Control,Completed,Chicago Electric,925,Pest Control service request
+WO00011,2715 W Diversey Ave,5,2026-08-08,2026-08-11,HVAC,COMPLETE,Windy City HVAC,775,HVAC service request
+WO00012,2715 W Diversey Ave,12,2026-08-06,,Electrical,Open,Windy City HVAC,125,Electrical service request
+WO00013,2715 W Diversey Ave,13,2026-08-27,2026-09-05,HVAC,Completed,ABC Plumbing,225,HVAC service request
+WO00014,2715 W Diversey Ave,5,2026-08-24,2026-08-30,Plumbing,Completed,Chicago Electric,300,Plumbing service request
+WO00015,2715 W Diversey Ave,16,2026-08-03,2026-08-11,General Repair,Completed,ABC Plumbing,800,General Repair service request
+WO00016,2715 W Diversey Ave,7,2026-09-09,2026-09-11,Plumbing,Completed,Chicago Electric,325,Plumbing service request
+WO00017,2715 W Diversey Ave,14,2026-09-05,,Painting,Open,Lakeside Contractors,275,Painting service request
+WO00018,2715 W Diversey Ave,14,2026-08-19,2026-08-21,Plumbing,Completed,ABC Plumbing,1100,Plumbing service request
+WO00019,2715 W Diversey Ave,1,2026-09-09,2026-09-11,Pest Control,Completed,Windy City HVAC,1100,Pest Control service request
+WO00020,3056 N Milwaukee Ave,1,2026-09-06,2026-09-09,HVAC,Completed,Windy City HVAC,1075,HVAC service request
+WO00021,3056 N Milwaukee Ave,9,2026-08-23,2026-08-30,Electrical,Completed,Northside Handyman,675,Electrical service request
+WO00022,3056 N Milwaukee Ave,9,2026-08-05,,Painting,Open,Lakeside Contractors,975,Painting service request
+WO00023,3056 N Milwaukee Ave,6,2026-08-02,2026-08-10,Plumbing,Completed,Windy City HVAC,500,Plumbing service request
+WO00024,3056 N Milwaukee Ave,2,2026-08-02,2026-08-04,HVAC,Completed,ABC Plumbing,1025,HVAC service request
+WO00025,3056 N Milwaukee Ave,3,2026-08-22,2026-08-28,Painting,Completed,Chicago Electric,1175,Painting service request
+WO00026,3056 N Milwaukee Ave,3,2026-08-30,,Appliance,Open,ABC Plumbing,200,Appliance service request
+WO00027,3056 N Milwaukee Ave,1,2026-08-30,2026-09-03,Plumbing,Completed,ABC Plumbing,600,Plumbing service request
+WO00028,1640 W North Ave,1,2026-09-02,2026-09-11,Appliance,Completed,Chicago Electric,1125,Appliance service request
+WO00029,1640 W North Ave,5,2026-08-13,2026-08-14,Pest Control,Completed,Chicago Electric,275,Pest Control service request
+WO00030,1640 W North Ave,7,2026-08-24,2026-08-31,General Repair,Completed,Windy City HVAC,625,General Repair service request
+WO00031,1640 W North Ave,5,2026-08-12,2026-08-20,HVAC,Completed,Lakeside Contractors,225,HVAC service request
+WO00032,1640 W North Ave,9,2026-08-28,2026-09-07,Pest Control,Completed,ABC Plumbing,550,Pest Control service request
+WO00033,1640 W North Ave,5,2026-08-21,2026-08-27,General Repair,Completed,Chicago Electric,800,General Repair service request
+WO00034,2217 N California Ave,1,2026-08-28,2026-09-05,HVAC,Completed,Windy City HVAC,650,HVAC service request
+WO00035,2217 N California Ave,2,2026-09-09,,HVAC,Open,Northside Handyman,1150,HVAC service request
+WO00036,2217 N California Ave,1,2026-09-10,2026-09-19,Pest Control,Completed,ABC Plumbing,325,Pest Control service request
+WO00037,2217 N California Ave,2,2026-09-08,2026-09-16,Plumbing,Completed,ABC Plumbing,475,Plumbing service request
+WO00038,2217 N California Ave,10,2026-09-11,2026-09-18,Painting,Completed,Northside Handyman,325,Painting service request
+WO00039,2217 N California Ave,2,2026-09-13,2026-09-19,HVAC,Completed,Windy City HVAC,1000,HVAC service request
+WO00040,2217 N California Ave,4,2026-08-09,2026-08-16,HVAC,Completed,Chicago Electric,275,HVAC service request
+WO00041,2217 N California Ave,9,2026-08-02,2026-08-10,Painting,Completed,Windy City HVAC,275,Painting service request
+WO00042,3432 W. Fullerton,16,2026-08-17,2026-08-21,Painting,Completed,Chicago Electric,400,Painting service request
+WO00043,3432 W. Fullerton,15,2026-08-08,2026-08-10,Appliance,Completed,ABC Plumbing,225,Appliance service request
+WO00044,3432 W Fullerton Ave,3,2026-09-13,,HVAC,Open,Chicago Electric,975,HVAC service request
+WO00045,3432 W Fullerton Ave,6,2026-09-04,2026-09-09,Pest Control,Completed,ABC Plumbing,675,Pest Control service request
+WO00046,3432 W Fullerton Ave,8,2026-09-02,2026-09-06,Pest Control,Completed,ABC Plumbing,875,Pest Control service request
+WO00047,3432 W Fullerton Ave,18,2026-08-02,2026-08-12,HVAC,Completed,Windy City HVAC,300,HVAC service request
+WO00048,1925 N Western Ave,9,2026-08-06,2026-08-13,General Repair,Completed,Windy City HVAC,750,General Repair service request
+WO00049,1925 N Western Ave,6,2026-08-27,,Plumbing,Open,ABC Plumbing,1125,Plumbing service request
+WO00050,1925 N Western Ave,9,2026-08-05,2026-08-14,HVAC,Completed,ABC Plumbing,1100,HVAC service request
+WO00051,1925 N Western Ave,1,2026-09-07,2026-09-10,Appliance,Completed,Lakeside Contractors,275,Appliance service request
+WO00052,1925 N Western Ave,4,2026-09-03,2026-09-06,Electrical,Completed,Chicago Electric,650,Electrical service request
+WO00053,1925 N Western Ave,5,2026-09-03,,Pest Control,Open,Northside Handyman,400,Pest Control service request
+WO00054,1925 N Western Ave,5,2026-09-10,,HVAC,Open,ABC Plumbing,1075,HVAC service request
+WO00055,1925 N Western Ave,3,2026-09-04,2026-09-07,Painting,Completed,Lakeside Contractors,350,Painting service request
+WO00056,2841 W Armitage Ave,1,2026-09-09,2026-09-19,HVAC,Completed,Lakeside Contractors,125,HVAC service request
+WO00057,2841 W Armitage Ave,13,2026-08-06,2026-08-16,HVAC,Completed,ABC Plumbing,1000,HVAC service request
+WO00058,2841 W Armitage Ave,5,2026-08-27,2026-08-28,Appliance,Completed,Lakeside Contractors,1125,Appliance service request
+WO00059,2841 W Armitage Ave,2,2026-08-20,2026-08-27,HVAC,Completed,Windy City HVAC,175,HVAC service request
+WO00060,2841 W Armitage Ave,6,2026-08-11,2026-08-19,Appliance,Completed,ABC Plumbing,1050,Appliance service request
+WO00061,2841 W Armitage Ave,7,2026-08-10,2026-08-16,General Repair,Completed,Chicago Electric,300,General Repair service request
+WO00062,2841 W Armitage Ave,8,2026-08-24,2026-08-26,HVAC,Completed,ABC Plumbing,275,HVAC service request
+WO00063,2841 W Armitage Ave,5,2026-08-18,2026-08-21,Plumbing,Completed,Northside Handyman,700,Plumbing service request
+WO00064,2841 W Armitage Ave,10,2026-09-09,2026-09-12,Pest Control,Completed,Chicago Electric,600,Pest Control service request
+WO00065,3150 N Central Park Ave,5,2026-08-11,2026-08-20,Appliance,Completed,Windy City HVAC,875,Appliance service request
+WO00066,3150 N Central Park Ave,4,2026-08-02,2026-08-09,Painting,Completed,Windy City HVAC,425,Painting service request
+WO00067,3150 N Central Park Ave,10,2026-09-07,2026-09-08,HVAC,Completed,Windy City HVAC,1125,HVAC service request
+WO00068,3150 N Central Park Ave,7,2026-09-13,2026-09-22,Plumbing,Completed,Northside Handyman,300,Plumbing service request
+WO00069,3150 N Central Park Ave,7,2026-08-17,2026-08-24,HVAC,Completed,Northside Handyman,175,HVAC service request
+WO00070,2524 W Belmont Ave,13,2026-09-05,2026-09-14,HVAC,Completed,Northside Handyman,900,HVAC service request
+WO00071,2524 W Belmont Ave,4,2026-08-29,2026-09-03,Pest Control,COMPLETE,Lakeside Contractors,300,Pest Control service request
+WO00072,2524 W Belmont Ave,5,2026-08-07,2026-08-13,Painting,Completed,Chicago Electric,400,Painting service request
+WO00073,2524 W Belmont Ave,2,2026-09-08,2026-09-17,Plumbing,Completed,Northside Handyman,300,Plumbing service request
+WO00074,2524 W Belmont Ave,5,2026-08-22,,Painting,Open,Windy City HVAC,1050,Painting service request
+WO00075,2524 W Belmont Ave,13,2026-09-02,2026-09-12,HVAC,Completed,ABC Plumbing,1075,HVAC service request
+WO00076,2524 W Belmont Ave,16,2026-08-20,2026-08-29,Pest Control,Completed,Lakeside Contractors,1000,Pest Control service request
+WO00077,2524 W Belmont Ave,4,2026-08-20,2026-08-21,HVAC,COMPLETE,Chicago Electric,750,HVAC service request
+WO00078,1735 N Rockwell St,5,2026-08-20,2026-08-21,Painting,Completed,Windy City HVAC,1125,Painting service request
+WO00079,1735 N Rockwell St,3,2026-09-07,2026-09-08,Painting,Completed,Windy City HVAC,925,Painting service request
+WO00080,1735 N Rockwell St,1,2026-09-10,2026-09-17,Electrical,Completed,ABC Plumbing,1000,Electrical service request
+WO00081,1735 N Rockwell St,7,2026-09-14,2026-09-15,Appliance,Completed,Chicago Electric,325,Appliance service request
+WO00082,1735 N Rockwell St,8,2026-08-27,2026-09-03,Painting,Completed,Lakeside Contractors,175,Painting service request
+WO00083,1735 N Rockwell St,9,2026-08-09,2026-08-18,HVAC,Completed,Windy City HVAC,700,HVAC service request
+WO00084,1735 N Rockwell St,6,2026-08-21,,Appliance,Open,Lakeside Contractors,950,Appliance service request
+WO00085,1735 N Rockwell St,4,2026-08-23,2026-08-28,Painting,Completed,Windy City HVAC,475,Painting service request
+WO00086,2908 Logan Boulevard,12,2026-09-05,2026-09-10,Pest Control,Completed,Chicago Electric,425,Pest Control service request
+WO00087,2908 Logan Boulevard,9,2026-09-14,2026-09-20,Appliance,Completed,Chicago Electric,525,Appliance service request
+WO00088,2908 W Logan Blvd,14,2026-08-19,2026-08-28,Appliance,Completed,Windy City HVAC,650,Appliance service request
+WO00089,2908 W Logan Blvd,6,2026-08-10,2026-08-15,General Repair,Completed,Northside Handyman,800,General Repair service request
+WO00090,2908 W Logan Blvd,14,2026-09-11,2026-09-19,Electrical,Completed,ABC Plumbing,950,Electrical service request
+WO00091,2908 W Logan Blvd,3,2026-08-18,,General Repair,Open,Chicago Electric,250,General Repair service request
+WO00092,3317 W Diversey Ave,4,2026-09-07,2026-09-08,General Repair,Completed,Lakeside Contractors,1100,General Repair service request
+WO00093,3317 W Diversey Ave,2,2026-08-15,2026-08-22,HVAC,Completed,Windy City HVAC,1175,HVAC service request
+WO00094,3317 W Diversey Ave,11,2026-08-09,2026-08-18,Electrical,Completed,Windy City HVAC,850,Electrical service request
+WO00095,3317 W Diversey Ave,11,2026-08-31,2026-09-05,HVAC,Completed,Chicago Electric,175,HVAC service request
+WO00096,3317 W Diversey Ave,3,2026-08-06,2026-08-10,Painting,Completed,Northside Handyman,750,Painting service request
+WO00097,3317 W Diversey Ave,8,2026-08-12,,Plumbing,Open,Windy City HVAC,375,Plumbing service request
+WO00098,3317 W Diversey Ave,10,2026-08-19,,Plumbing,Open,Chicago Electric,1050,Plumbing service request
+WO00099,3317 W Diversey Ave,8,2026-08-07,,HVAC,Open,Chicago Electric,1125,HVAC service request
+WO00100,2136 N Humboldt Blvd,8,2026-09-03,2026-09-06,Pest Control,COMPLETE,Lakeside Contractors,525,Pest Control service request
+WO00101,2136 N Humboldt Blvd,8,2026-08-13,,HVAC,Open,ABC Plumbing,1125,HVAC service request
+WO00102,2136 N Humboldt Blvd,5,2026-08-17,2026-08-18,General Repair,Completed,Chicago Electric,1000,General Repair service request
+WO00103,2136 N Humboldt Blvd,7,2026-09-13,2026-09-16,Painting,Completed,Windy City HVAC,900,Painting service request
+WO00104,2136 N Humboldt Blvd,8,2026-08-21,2026-08-23,Electrical,Completed,ABC Plumbing,600,Electrical service request
+WO00105,2136 N Humboldt Blvd,5,2026-08-16,2026-08-23,Electrical,Completed,Windy City HVAC,625,Electrical service request
+WO00106,2136 N Humboldt Blvd,6,2026-08-20,2026-08-30,Plumbing,Completed,Chicago Electric,475,Plumbing service request
+WO00107,2136 N Humboldt Blvd,7,2026-08-04,2026-08-12,HVAC,Completed,ABC Plumbing,1175,HVAC service request
+WO00077,2524 W Belmont Ave,4,2026-08-20,2026-08-21,HVAC,COMPLETE,Chicago Electric,750,HVAC service request
+WO00011,2715 W Diversey Ave,5,2026-08-08,2026-08-11,HVAC,COMPLETE,Windy City HVAC,775,HVAC service request
+WO00005,1842 N Kedzie Ave,3,2026-09-08,2026-09-11,Electrical,COMPLETE,Lakeside Contractors,800,Electrical service request
+WO00100,2136 N Humboldt Blvd,8,2026-09-03,2026-09-06,Pest Control,COMPLETE,Lakeside Contractors,525,Pest Control service request
+WO00071,2524 W Belmont Ave,4,2026-08-29,2026-09-03,Pest Control,COMPLETE,Lakeside Contractors,300,Pest Control service request

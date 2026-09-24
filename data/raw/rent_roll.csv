@@ -1,0 +1,181 @@
+property_id,property_name,unit_number,tenant_name,monthly_rent,amount_paid,balance_due,lease_start,lease_end,occupancy_status,report_date
+P001,1842 N. Kedzie,1,Emily Brown,1400,1400,0,2026-04-12,2027-04-12,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,2,Emily Lee,2450,2450,0,2025-11-09,2026-11-09,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,3,James Martinez,1400,1400,0,2026-04-18,2027-04-18,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,4,Emily Thomas,1700,1700,0,2025-11-09,2026-11-09,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,5,Luis Jackson,1800,1800,0,2026-08-12,2027-08-12,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,6,Jennifer Brown,2050,2050,0,2026-05-28,2027-05-28,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,7,James Davis,1550,1550,0,2026-06-27,2027-06-27,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,8,Luis Garcia,1800,1800,0,2025-12-23,2026-12-23,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,9,,2000,0,0,,,Vacant,2026-09-14
+P001,1842 N. Kedzie,Unit 10,Rachel Thomas,1850,1850,0,2026-02-11,2027-02-11,Occupied,2026-09-14
+P001,1842 N. Kedzie,11,Marcus Martinez,1450,0,1450,2026-03-20,2027-03-20,Occupied,2026-09-14
+P001,1842 N Kedzie Ave,12,Michael Brown,1550,1550,0,2025-12-26,2026-12-26,Occupied,2026-09-14
+P002,2715 W DIVERSEY,1,Jennifer Martinez,1950,1950,0,2026-04-01,2027-04-01,Occupied,2026-09-14
+P002,2715 W DIVERSEY,Unit 2,Sofia Thomas,1500,1500,0,2026-05-20,2027-05-20,Occupied,2026-09-14
+P002,2715 W Diversey Ave,3,Michael Brown,2100,2100,0,2025-11-03,2026-11-03,Occupied,2026-09-14
+P002,2715 W Diversey Ave,4,Ashley Jackson,1450,1450,0,2026-07-30,2027-07-30,Occupied,2026-09-14
+P002,2715 W Diversey Ave,5,Ashley Lee,1500,1000,500,2025-10-29,2026-10-29,Occupied,2026-09-14
+P002,2715 W DIVERSEY,6,Michael Lee,2150,2150,0,2025-12-24,2026-12-24,Occupied,2026-09-14
+P002,2715 W Diversey Ave,7,Daniel Wilson,2550,2550,0,2026-04-03,2027-04-03,Occupied,2026-09-14
+P002,2715 W Diversey Ave,Unit 8,Michael Rodriguez,2300,0,2300,2026-04-25,2027-04-25,Occupied,2026-09-14
+P002,2715 W Diversey Ave,9,James Moore,2150,950,1200,2026-07-22,2027-07-22,Occupied,2026-09-14
+P002,2715 W Diversey Ave,10,Michael Anderson,2450,2450,0,2026-07-14,2027-07-14,Occupied,2026-09-14
+P002,2715 W Diversey Ave,11,Daniel Brown,2100,500,1600,2025-11-05,2026-11-05,Occupied,2026-09-14
+P002,2715 W Diversey Ave,12,Marcus Lee,1550,1550,0,2025-11-14,2026-11-14,Occupied,2026-09-14
+P002,2715 W Diversey Ave,13,James Brown,1900,1900,0,2026-01-05,2027-01-05,Occupied,2026-09-14
+P002,2715 W Diversey Ave,14,Anthony Taylor,2550,0,2550,2026-04-03,2027-04-03,Occupied,2026-09-14
+P002,2715 W Diversey Ave,15,Anthony Johnson,2200,2200,0,2026-03-16,2027-03-16,Occupied,2026-09-14
+P002,2715 W Diversey Ave,16,David Rodriguez,1700,1700,0,2026-05-25,2027-05-25,Occupied,2026-09-14
+P003,3056 N Milwaukee Ave,1,Anthony Garcia,2200,2200,0,2026-03-03,2027-03-03,occupied,2026-09-14
+P003,3056 N Milwaukee,2,Anthony Jackson,1950,1950,0,2026-03-11,2027-03-11,Occupied,2026-09-14
+P003,3056 N Milwaukee Ave,3,James Johnson,2300,2300,0,2025-12-10,2026-12-10,Occupied,2026-09-14
+P003,3056 N Milwaukee Ave,4,,2250,0,0,,,Vacant,2026-09-14
+P003,3056 N Milwaukee Ave,5,Marcus Lopez,1600,1600,0,2025-11-07,2026-11-07,Occupied,2026-09-14
+P003,3056 N Milwaukee,6,Michael Martinez,2350,2350,0,2025-11-12,2026-11-12,Occupied,2026-09-14
+P003,3056 N Milwaukee Ave,7,Carlos Davis,2500,2500,0,2026-02-05,2027-02-05,Occupied,2026-09-14
+P003,3056 N Milwaukee Ave,8,Ashley Martinez,1550,1550,0,2026-07-14,2027-07-14,Occupied,2026-09-14
+P003,3056 N Milwaukee,9,Sofia Martinez,1750,1750,0,2026-08-12,2027-08-12,Occupied,2026-09-14
+P003,3056 N Milwaukee Ave,10,James Lee,1750,600,1150,2026-07-30,2027-07-30,Occupied,2026-09-14
+P004,1640 W North Ave,1,Marcus Lopez,1800,1800,0,2026-04-28,2027-04-28,Occupied,2026-09-14
+P004,1640 W North Ave,2,Sofia Lopez,2300,2300,0,2026-04-13,2027-04-13,Occupied,2026-09-14
+P004,1640 W North Ave,3,James Johnson,1700,1700,0,2026-01-07,2027-01-07,occupied,2026-09-14
+P004,1640 W North Ave,4,Maria Thomas,2550,2550,0,2026-06-26,2027-06-26,Occupied,2026-09-14
+P004,1640 W North Ave,5,Ashley Martinez,1550,1550,0,2026-05-10,2027-05-10,Occupied,2026-09-14
+P004,1640 W North Ave,6,Carlos Lopez,1650,600,1050,2026-04-10,2027-04-10,Occupied,2026-09-14
+P004,1640 W North Ave,7,James Garcia,2250,2250,0,2025-11-12,2026-11-12,Occupied,2026-09-14
+P004,1640 W North Ave,8,,1750,0,0,,,Vacant,2026-09-14
+P004,1640 W North Ave,9,Nicole Martinez,2150,1000,1150,2026-01-22,2027-01-22,Occupied,2026-09-14
+P004,1640 W North Ave,10,Carlos Lee,2000,2000,0,2025-12-26,2026-12-26,Occupied,2026-09-14
+P004,1640 W North Ave,11,Luis Wilson,2550,2550,0,2025-12-09,2026-12-09,Occupied,2026-09-14
+P004,1640 W North Ave,12,Sofia Taylor,1450,1450,0,2025-11-11,2026-11-11,Occupied,2026-09-14
+P004,1640 W North Ave,13,Sofia Lopez,1450,1300,150,2025-12-01,2026-12-01,Occupied,2026-09-14
+P004,1640 W North Ave,14,James Jackson,2200,2200,0,2026-05-12,2027-05-12,Occupied,2026-09-14
+P005,2217 N California Ave,1,Michael Johnson,1750,1750,0,2025-10-28,2026-10-28,Occupied,2026-09-14
+P005,2217 N California Ave,2,James Davis,2350,2350,0,2025-10-21,2026-10-21,Occupied,2026-09-14
+P005,2217 N California Ave,3,Ashley Thomas,1800,1800,0,2026-03-08,2027-03-08,Occupied,2026-09-14
+P005,2217 N California Ave,4,Marcus Brown,2450,2450,0,2025-12-24,2026-12-24,Occupied,2026-09-14
+P005,2217 N California Ave,5,Maria Lopez,1500,0,1500,2025-10-31,2026-10-31,Occupied,2026-09-14
+P005,2217 N California Ave,6,Daniel Brown,1700,600,1100,2026-06-09,2027-06-09,Occupied,2026-09-14
+P005,2217 N California Ave,7,Carlos Williams,1950,1950,0,2026-01-03,2027-01-03,Occupied,2026-09-14
+P005,2217 N California Ave,8,Luis Thomas,2350,2350,0,2025-11-18,2026-11-18,Occupied,2026-09-14
+P005,2217 N California Ave,9,Anthony Thomas,1850,700,1150,2026-06-23,2027-06-23,Occupied,2026-09-14
+P005,2217 N California Ave,10,Emily Wilson,1550,1550,0,2026-05-28,2027-05-28,Occupied,2026-09-14
+P005,2217 N California Ave,11,Jennifer Martinez,2500,2500,0,2026-04-02,2027-04-02,Occupied,2026-09-14
+P005,2217 N California Ave,12,James Thomas,1450,1450,0,2026-01-11,2027-01-11,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,1,Luis Williams,1900,1900,0,2026-04-03,2027-04-03,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,2,Michael Wilson,2500,2500,0,2026-08-11,2027-08-11,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,3,,2500,0,0,,,Vacant,2026-09-14
+P006,3432 W Fullerton Ave,4,Maria Jackson,2250,2250,0,2026-02-07,2027-02-07,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,5,Maria Brown,1600,550,1050,2026-02-10,2027-02-10,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,6,Marcus Martinez,1700,1700,0,2026-06-24,2027-06-24,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,7,Sofia Taylor,2050,850,1200,2026-05-28,2027-05-28,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,8,Anthony Davis,1650,1650,0,2026-08-03,2027-08-03,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,9,Luis Thomas,2050,2050,0,2026-04-10,2027-04-10,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,10,Michael Jackson,1550,850,700,2026-07-27,2027-07-27,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,11,Jennifer Brown,2100,2100,0,2026-04-21,2027-04-21,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,12,Jennifer Brown,2000,0,2000,2026-07-11,2027-07-11,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,13,Daniel Davis,2400,2400,0,2025-11-14,2026-11-14,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,14,David Anderson,1800,1800,0,2026-04-02,2027-04-02,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,15,Emily Moore,1950,1950,0,2026-03-08,2027-03-08,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,16,,1550,0,0,,,Vacant,2026-09-14
+P006,3432 W Fullerton Ave,17,Ashley Brown,2300,2300,0,2026-07-24,2027-07-24,Occupied,2026-09-14
+P006,3432 W Fullerton Ave,18,Marcus Taylor,2250,2250,0,2026-05-07,2027-05-07,Occupied,2026-09-14
+P007,1925 N Western Ave,1,Anthony Rodriguez,2450,2450,0,2026-03-08,2027-03-08,Occupied,2026-09-14
+P007,1925 N Western Ave,2,Daniel Brown,1850,1850,0,2026-01-18,2027-01-18,Occupied,2026-09-14
+P007,1925 N Western Ave,3,David Martinez,2250,2250,0,2026-01-12,2027-01-12,Occupied,2026-09-14
+P007,1925 N Western Ave,4,Anthony Williams,2550,2550,0,2025-10-28,2026-10-28,Occupied,2026-09-14
+P007,1925 N Western Ave,5,Carlos Brown,1400,1400,0,2026-04-30,2027-04-30,Occupied,2026-09-14
+P007,1925 N Western Ave,6,Jennifer Lopez,2400,2400,0,2026-01-01,2027-01-01,Occupied,2026-09-14
+P007,1925 N Western Ave,7,Luis Lee,2150,2150,0,2026-05-21,2027-05-21,Occupied,2026-09-14
+P007,1925 N Western Ave,8,Marcus Anderson,2450,2450,0,2026-02-25,2027-02-25,Occupied,2026-09-14
+P007,1925 N Western Ave,9,,1750,0,0,,,Vacant,2026-09-14
+P007,1925 N Western Ave,10,Luis Martinez,1750,1750,0,2026-06-01,2027-06-01,Occupied,2026-09-14
+P008,2841 W Armitage Ave,1,Sofia Jackson,2150,2150,0,2026-07-09,2027-07-09,Occupied,2026-09-14
+P008,2841 W Armitage Ave,2,Ashley Taylor,2300,2300,0,2026-01-31,2027-01-31,Occupied,2026-09-14
+P008,2841 W Armitage Ave,3,Emily Garcia,2400,2400,0,2026-06-22,2027-06-22,Occupied,2026-09-14
+P008,2841 W Armitage Ave,4,Daniel Lopez,2500,2500,0,2026-07-21,2027-07-21,Occupied,2026-09-14
+P008,2841 W Armitage Ave,5,Nicole Williams,1550,1550,0,2025-12-21,2026-12-21,occupied,2026-09-14
+P008,2841 W Armitage Ave,6,,2350,0,0,,,Vacant,2026-09-14
+P008,2841 W Armitage Ave,7,Sofia Jackson,2100,2100,0,2025-11-30,2026-11-30,Occupied,2026-09-14
+P008,2841 W Armitage Ave,8,Anthony Williams,2100,2100,0,2025-12-15,2026-12-15,Occupied,2026-09-14
+P008,2841 W Armitage Ave,9,Carlos Moore,2400,2400,0,2025-11-22,2026-11-22,Occupied,2026-09-14
+P008,2841 W Armitage Ave,10,James Taylor,2100,2100,0,2026-03-22,2027-03-22,Occupied,2026-09-14
+P008,2841 W Armitage Ave,11,James Williams,2250,2250,0,2026-05-30,2027-05-30,Occupied,2026-09-14
+P008,2841 W Armitage Ave,12,Ashley Johnson,2500,2500,0,2026-01-15,2027-01-15,Occupied,2026-09-14
+P008,2841 W Armitage Ave,Unit 13,Maria Martinez,2050,2050,0,2026-01-12,2027-01-12,Occupied,2026-09-14
+P008,2841 W Armitage Ave,14,Maria Jackson,2500,2500,0,2025-10-25,2026-10-25,Occupied,2026-09-14
+P009,3150 N Central Park Ave,1,Carlos Moore,1950,1800,150,2026-01-28,2027-01-28,Occupied,2026-09-14
+P009,3150 N Central Park Ave,2,Emily Wilson,2550,2550,0,2026-04-25,2027-04-25,Occupied,2026-09-14
+P009,3150 N Central Park Ave,3,Maria Davis,2150,2150,0,2026-02-24,2027-02-24,Occupied,2026-09-14
+P009,3150 N Central Park Ave,4,David Jackson,2550,2450,100,2025-12-19,2026-12-19,Occupied,2026-09-14
+P009,3150 N Central Park Ave,5,Sofia Anderson,2000,2000,0,2026-08-02,2027-08-02,Occupied,2026-09-14
+P009,3150 N Central Park Ave,6,David Garcia,2100,2100,0,2026-04-04,2027-04-04,Occupied,2026-09-14
+P009,3150 N Central Park Ave,7,Jennifer Moore,1900,1900,0,2026-02-02,2027-02-02,occupied,2026-09-14
+P009,3150 N Central Park Ave,8,,2050,0,0,,,Vacant,2026-09-14
+P009,3150 N Central Park Ave,9,Nicole Garcia,1500,1500,0,2025-11-12,2026-11-12,Occupied,2026-09-14
+P009,3150 N Central Park Ave,10,,1750,0,0,,,Vacant,2026-09-14
+P009,3150 N Central Park Ave,11,Maria Moore,2400,1100,1300,2026-07-31,2027-07-31,Occupied,2026-09-14
+P009,3150 N Central Park Ave,12,David Martinez,2350,2350,0,2026-06-12,2027-06-12,Occupied,2026-09-14
+P010,2524 W Belmont Ave,1,Nicole Taylor,1700,1700,0,2026-04-06,2027-04-06,Occupied,2026-09-14
+P010,2524 W Belmont Ave,2,Emily Taylor,2350,2350,0,2026-06-18,2027-06-18,Occupied,2026-09-14
+P010,2524 W Belmont Ave,3,James Anderson,1850,1400,450,2026-08-02,2027-08-02,Occupied,2026-09-14
+P010,2524 W Belmont Ave,4,Michael Taylor,2000,2000,0,2026-05-06,2027-05-06,Occupied,2026-09-14
+P010,2524 W Belmont Ave,5,Ashley Johnson,2400,850,1550,2026-03-14,2027-03-14,Occupied,2026-09-14
+P010,2524 W Belmont Ave,Unit 6,Luis Garcia,2300,2300,0,2026-02-19,2027-02-19,Occupied,2026-09-14
+P010,2524 W Belmont Ave,7,Daniel Thomas,1500,1500,0,2026-02-22,2027-02-22,Occupied,2026-09-14
+P010,2524 W Belmont Ave,8,James Davis,2150,2150,0,2026-02-11,2027-02-11,Occupied,2026-09-14
+P010,2524 W Belmont Ave,9,David Davis,2500,2500,0,2026-05-17,2027-05-17,occupied,2026-09-14
+P010,2524 W Belmont Ave,10,,1800,0,0,,,Vacant,2026-09-14
+P010,2524 W Belmont Ave,11,Luis Lopez,2250,2250,0,2025-12-20,2026-12-20,Occupied,2026-09-14
+P010,2524 W Belmont Ave,12,Jennifer Jackson,1800,1800,0,2026-04-12,2027-04-12,Occupied,2026-09-14
+P010,2524 W Belmont Ave,Unit 13,Ashley Moore,2100,2100,0,2025-12-21,2026-12-21,Occupied,2026-09-14
+P010,2524 W Belmont Ave,14,Maria Lopez,1900,1900,0,2026-03-02,2027-03-02,Occupied,2026-09-14
+P010,2524 W Belmont Ave,15,Jennifer Brown,1800,1800,0,2026-03-27,2027-03-27,Occupied,2026-09-14
+P010,2524 W Belmont Ave,16,James Martinez,1700,1700,0,2026-01-19,2027-01-19,Occupied,2026-09-14
+P011,1735 N Rockwell St,1,Nicole Thomas,2500,2500,0,2025-12-07,2026-12-07,Occupied,2026-09-14
+P011,1735 N Rockwell St,2,Ashley Davis,1850,1850,0,2026-04-13,2027-04-13,Occupied,2026-09-14
+P011,1735 N Rockwell St,3,Daniel Wilson,2150,2150,0,2026-02-20,2027-02-20,Occupied,2026-09-14
+P011,1735 N Rockwell St,4,Jennifer Taylor,1900,1900,0,2025-12-26,2026-12-26,Occupied,2026-09-14
+P011,1735 N Rockwell St,5,Emily Martinez,1550,1550,0,2026-03-07,2027-03-07,Occupied,2026-09-14
+P011,1735 N Rockwell St,6,David Martinez,2500,2500,0,2026-04-27,2027-04-27,Occupied,2026-09-14
+P011,1735 N Rockwell St,7,Luis Wilson,2300,0,2300,2026-03-24,2027-03-24,Occupied,2026-09-14
+P011,1735 N Rockwell St,8,Ashley Rodriguez,1850,1850,0,2026-05-16,2027-05-16,Occupied,2026-09-14
+P011,1735 N Rockwell St,9,Carlos Garcia,1600,1600,0,2026-07-19,2027-07-19,Occupied,2026-09-14
+P011,1735 N Rockwell St,10,Marcus Jackson,1600,1600,0,2025-12-07,2026-12-07,Occupied,2026-09-14
+P012,2908 W Logan Blvd,Unit 1,Nicole Lopez,1850,1850,0,2026-01-02,2027-01-02,Occupied,2026-09-14
+P012,2908 W Logan Blvd,2,,1800,0,0,,,Vacant,2026-09-14
+P012,2908 W Logan Blvd,3,,2150,0,0,,,Vacant,2026-09-14
+P012,2908 W Logan Blvd,4,Michael Lopez,1500,1500,0,2026-07-09,2027-07-09,Occupied,2026-09-14
+P012,2908 W Logan Blvd,5,David Moore,1600,600,1000,2025-10-31,2026-10-31,Occupied,2026-09-14
+P012,2908 W Logan Blvd,6,,1550,0,0,,,Vacant,2026-09-14
+P012,2908 W Logan Blvd,7,Sofia Anderson,2050,2050,0,2026-04-22,2027-04-22,Occupied,2026-09-14
+P012,2908 W Logan Blvd,8,Carlos Jackson,2100,2100,0,2026-01-08,2027-01-08,Occupied,2026-09-14
+P012,2908 W Logan Blvd,Unit 9,Emily Johnson,2350,2350,0,2026-05-01,2027-05-01,Occupied,2026-09-14
+P012,2908 W Logan Blvd,10,David Martinez,1500,1500,0,2026-05-19,2027-05-19,Occupied,2026-09-14
+P012,2908 W Logan Blvd,11,Nicole Taylor,2050,2050,0,2025-12-18,2026-12-18,Occupied,2026-09-14
+P012,2908 W Logan Blvd,12,Carlos Taylor,2500,2500,0,2025-12-26,2026-12-26,Occupied,2026-09-14
+P012,2908 W Logan Blvd,13,Luis Moore,1800,1800,0,2026-05-06,2027-05-06,Occupied,2026-09-14
+P012,2908 W Logan Blvd,14,David Lee,2400,2400,0,2026-04-01,2027-04-01,Occupied,2026-09-14
+P013,3317 W Diversey Ave,1,Luis Brown,1650,1200,450,2025-10-28,2026-10-28,Occupied,2026-09-14
+P013,3317 W Diversey Ave,2,Carlos Taylor,2500,2100,400,2026-01-21,2027-01-21,Occupied,2026-09-14
+P013,3317 W Diversey Ave,3,James Anderson,2100,1500,600,2026-07-26,2027-07-26,Occupied,2026-09-14
+P013,3317 W Diversey Ave,4,James Martinez,1400,1400,0,2025-10-25,2026-10-25,Occupied,2026-09-14
+P013,3317 W Diversey Ave,5,Rachel Brown,2450,2450,0,2025-10-24,2026-10-24,Occupied,2026-09-14
+P013,3317 W Diversey Ave,6,Daniel Thomas,2150,1050,1100,2026-01-01,2027-01-01,Occupied,2026-09-14
+P013,3317 W Diversey Ave,7,,2050,0,0,,,Vacant,2026-09-14
+P013,3317 W Diversey Ave,8,James Lopez,2150,2150,0,2026-02-18,2027-02-18,Occupied,2026-09-14
+P013,3317 W Diversey Ave,9,Rachel Williams,1550,1550,0,2026-02-28,2027-02-28,Occupied,2026-09-14
+P013,3317 W Diversey Ave,10,Michael Jackson,2450,2450,0,2025-11-07,2026-11-07,occupied,2026-09-14
+P013,3317 W Diversey Ave,11,Jennifer Johnson,1800,500,1300,2026-01-21,2027-01-21,Occupied,2026-09-14
+P013,3317 W Diversey Ave,12,Nicole Davis,2250,2250,0,2026-07-19,2027-07-19,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,1,Marcus Lopez,2150,2150,0,2026-07-20,2027-07-20,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,2,Nicole Lee,1850,1850,0,2025-12-10,2026-12-10,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,3,,2350,0,0,,,VACANT,2026-09-14
+P014,2136 N Humboldt Blvd,Unit 4,David Brown,2500,2500,0,2025-11-06,2026-11-06,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,5,Rachel Lee,1750,1750,0,2026-06-18,2027-06-18,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,6,Nicole Lee,1600,1600,0,2026-03-19,2027-03-19,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,7,Nicole Martinez,2150,2150,0,2025-12-25,2026-12-25,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,8,Daniel Taylor,2350,1350,1000,2026-06-07,2027-06-07,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,9,Jennifer Lee,2050,2050,0,2025-11-29,2026-11-29,Occupied,2026-09-14
+P014,2136 N Humboldt Blvd,10,Carlos Jackson,2550,2550,0,2025-10-19,2026-10-19,Occupied,2026-09-14

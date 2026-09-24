@@ -1,0 +1,168 @@
+transaction_id,property_name,expense_date,vendor,category,description,amount
+TXN00001,1842 N Kedzie Ave,2026-09-04,Windy City Janitorial,Cleaning,Cleaning expense,475
+TXN00002,1842 N Kedzie Ave,2026-09-05,Green Chicago Landscaping,Landscaping,Landscaping expense,525
+TXN00003,1842 N Kedzie Ave,2026-08-21,Chicago Pest Solutions,Pest Control,Pest Control expense,250
+TXN00004,1842 N Kedzie Ave,2026-09-06,Midwest Property Insurance,Insurance,Insurance expense,1100
+TXN00005,1842 N Kedzie Ave,2026-08-03,Windy City Janitorial,Cleaning,Cleaning expense,350
+TXN00006,1842 N Kedzie Ave,2026-08-25,Midwest Property Insurance,Insurance,Insurance expense,1100
+TXN00007,1842 N Kedzie Ave,2026-09-01,Midwest Property Insurance,Insurance,Insurance expense,550
+TXN00008,1842 N Kedzie Ave,2026-08-07,Windy City Janitorial,Cleaning,Cleaning expense,450
+TXN00009,1842 N Kedzie Ave,2026-08-30,City Water,Utilities,Utilities expense,200
+TXN00010,1842 N Kedzie Ave,2026-08-27,Midwest Property Insurance,Insurance,Insurance expense,700
+TXN00011,1842 N Kedzie Ave,2026-08-17,Peoples Gas,Utilities,Utilities expense,450
+TXN00012,1842 N Kedzie Ave,2026-09-11,Lakeside Contractors,Repairs,Repairs expense,275
+TXN00013,1842 N Kedzie Ave,2026-08-21,Green Chicago Landscaping,Landscaping,Landscaping expense,600
+TXN00014,1842 N Kedzie Ave,2026-09-04,Midwest Property Insurance,Insurance,Insurance expense,550
+TXN00015,1842 N Kedzie Ave,2026-08-16,Northside Handyman,Repairs,Repairs expense,1150
+TXN00016,2715 W Diversey Ave,2026-08-28,Lakeview Cleaning,Cleaning,Cleaning expense,175
+TXN00017,2715 W Diversey Ave,2026-08-29,Midwest Property Insurance,Insurance,Insurance expense,750
+TXN00018,2715 W Diversey Ave,2026-08-02,Midwest Property Insurance,Insurance,Insurance expense,550
+TXN00019,2715 W Diversey Ave,2026-08-19,Green Chicago Landscaping,Landscaping,Landscaping expense,375
+TXN00020,2715 W Diversey Ave,2026-08-10,Green Chicago Landscaping,Landscaping,Landscaping expense,275
+TXN00021,2715 W Diversey Ave,2026-09-06,Lakeside Contractors,Repairs,Repairs expense,425
+TXN00022,2715 W Diversey Ave,2026-08-06,Lakeview Cleaning,Cleaning,Cleaning expense,575
+TXN00023,2715 W Diversey Ave,2026-09-01,Chicago Pest Solutions,Pest Control,Pest Control expense,550
+TXN00024,2715 W Diversey Ave,2026-08-30,Lakeview Cleaning,Cleaning,Cleaning expense,600
+TXN00025,2715 W Diversey Ave,2026-08-17,Green Chicago Landscaping,Landscaping,Landscaping expense,625
+TXN00026,2715 W Diversey Ave,2026-08-19,Peoples Gas,Utilities,Utilities expense,725
+TXN00027,2715 W Diversey Ave,2026-08-05,Northside Handyman,Repairs,Repairs expense,850
+TXN00028,3056 N Milwaukee Ave,2026-09-10,Lakeside Contractors,Repairs,Repairs expense,825
+TXN00029,3056 N Milwaukee Ave,2026-08-30,Midwest Property Insurance,Insurance,Insurance expense,950
+TXN00030,3056 N Milwaukee Ave,2026-08-31,Windy City Janitorial,Cleaning,Cleaning expense,175
+TXN00031,3056 N Milwaukee Ave,2026-09-06,Windy City Janitorial,Cleaning,Cleaning expense,375
+TXN00032,3056 N Milwaukee Ave,2026-09-14,Lakeside Contractors,Repairs,Repairs expense,600
+TXN00033,3056 N Milwaukee Ave,2026-08-26,City Water,Utilities,Utilities expense,400
+TXN00034,3056 N Milwaukee Ave,2026-09-13,City Water,Utilities,Utilities expense,800
+TXN00035,3056 N Milwaukee Ave,2026-09-08,Midwest Property Insurance,Insurance,Insurance expense,1250
+TXN00036,3056 N Milwaukee Ave,2026-09-08,Green Chicago Landscaping,Landscaping,Landscaping expense,375
+TXN00037,3056 N Milwaukee Ave,2026-09-09,Lakeview Cleaning,Cleaning,Cleaning expense,300
+TXN00038,3056 N Milwaukee Ave,2026-09-10,Midwest Property Insurance,Insurance,Insurance expense,650
+TXN00039,3056 N Milwaukee Ave,2026-08-20,Midwest Property Insurance,Insurance,Insurance expense,1200
+TXN00040,3056 N Milwaukee Ave,2026-08-24,City Water,Utilities,Utilities expense,775
+TXN00041,1640 W North Ave,2026-08-21,Peoples Gas,Utilities,Utilities expense,775
+TXN00042,1640 W North Ave,2026-08-13,Chicago Pest Solutions,Pest Control,Pest Control expense,200
+TXN00043,1640 W North Ave,2026-09-03,Lakeside Contractors,Repairs,Repairs expense,950
+TXN00044,1640 W North Ave,2026-08-17,Green Chicago Landscaping,Landscaping,Landscaping expense,475
+TXN00045,1640 W North Ave,2026-08-08,Green Chicago Landscaping,Landscaping,Landscaping expense,450
+TXN00046,1640 W North Ave,2026-08-15,ComEd,Utilities,Utilities expense,875
+TXN00047,1640 W North Ave,2026-09-05,Midwest Property Insurance,Insurance,Insurance expense,1050
+TXN00048,1640 W North Ave,2026-08-01,Peoples Gas,Utilities,Utilities expense,400
+TXN00049,1640 W North Ave,2026-08-30,Northside Handyman,Repairs,Repairs expense,725
+TXN00050,1640 W North Ave,2026-09-07,Midwest Property Insurance,Insurance,Insurance expense,1100
+TXN00051,2217 N California Ave,2026-08-15,City Water,Utilities,Utilities expense,575
+TXN00052,2217 N California Ave,2026-09-05,City Water,Utilities,Utilities expense,450
+TXN00053,2217 N California Ave,2026-09-11,Northside Handyman,Repairs,Repairs expense,250
+TXN00054,2217 N California Ave,2026-09-14,Midwest Property Insurance,Insurance,Insurance expense,950
+TXN00055,2217 N California Ave,2026-08-08,Midwest Property Insurance,Insurance,Insurance expense,700
+TXN00056,2217 N California Ave,2026-08-20,ComEd,Utilities,Utilities expense,575
+TXN00057,2217 N California Ave,2026-08-16,ComEd,Utilities,Utilities expense,625
+TXN00058,2217 N California Ave,2026-08-30,Windy City Janitorial,Cleaning,Cleaning expense,375
+TXN00059,2217 N California Ave,2026-09-07,Midwest Property Insurance,Insurance,Insurance expense,700
+TXN00060,2217 N California Ave,2026-09-01,Chicago Pest Solutions,Pest Control,Pest Control expense,575
+TXN00061,2217 N California Ave,2026-08-03,Chicago Pest Solutions,Pest Control,Pest Control expense,650
+TXN00062,2217 N California Ave,2026-08-29,Green Chicago Landscaping,Landscaping,Landscaping expense,450
+TXN00063,2217 N California Ave,2026-08-07,Windy City Janitorial,Cleaning,Cleaning expense,625
+TXN00064,3432 W Fullerton Ave,2026-08-04,Lakeside Contractors,Repairs,Repairs expense,775
+TXN00065,3432 W Fullerton Ave,2026-08-08,Green Chicago Landscaping,Landscaping,Landscaping expense,450
+TXN00066,3432 W Fullerton Ave,2026-08-14,City Water,Utilities,Utilities expense,700
+TXN00067,3432 W Fullerton Ave,2026-08-04,Midwest Property Insurance,Insurance,Insurance expense,1000
+TXN00068,3432 W Fullerton Ave,2026-09-06,Lakeview Cleaning,Cleaning,Cleaning expense,250
+TXN00069,3432 W Fullerton Ave,2026-08-14,City Water,Utilities,Utilities expense,650
+TXN00070,3432 W Fullerton Ave,2026-08-22,Lakeview Cleaning,Cleaning,Cleaning expense,200
+TXN00071,3432 W Fullerton Ave,2026-08-18,Northside Handyman,Repairs,Repairs expense,375
+TXN00072,3432 W Fullerton Ave,2026-08-12,Windy City Janitorial,Cleaning,Cleaning expense,175
+TXN00073,3432 W Fullerton Ave,2026-08-09,Midwest Property Insurance,Insurance,Insurance expense,500
+TXN00074,3432 W Fullerton Ave,2026-09-07,Green Chicago Landscaping,Landscaping,Landscaping expense,350
+TXN00075,3432 W Fullerton Ave,2026-08-17,ComEd,Utilities,Utilities expense,225
+TXN00076,3432 W Fullerton Ave,2026-09-03,Windy City Janitorial,Cleaning,Cleaning expense,175
+TXN00077,1925 N Western Ave,2026-08-24,Chicago Pest Solutions,Pest Control,Pest Control expense,500
+TXN00078,1925 N Western Ave,2026-08-29,Northside Handyman,Repairs,Repairs expense,950
+TXN00079,1925 N Western Ave,2026-09-12,Lakeview Cleaning,Cleaning,Cleaning expense,500
+TXN00080,1925 N Western Ave,2026-09-11,Green Chicago Landscaping,Landscaping,Landscaping expense,100
+TXN00081,1925 N Western Ave,2026-08-26,Peoples Gas,Utilities,Utilities expense,525
+TXN00082,1925 N Western Ave,2026-09-01,Midwest Property Insurance,Insurance,Insurance expense,1200
+TXN00083,1925 N Western Ave,2026-08-21,ComEd,Utilities,Utilities expense,675
+TXN00084,1925 N Western Ave,2026-08-09,Lakeview Cleaning,Cleaning,Cleaning expense,300
+TXN00085,1925 N Western Ave,2026-08-25,Lakeside Contractors,Repairs,Repairs expense,1100
+TXN00086,2841 W Armitage Ave,2026-08-07,Chicago Pest Solutions,Pest Control,Pest Control expense,650
+TXN00087,2841 W Armitage Ave,2026-09-11,City Water,Utilities,Utilities expense,800
+TXN00088,2841 W Armitage Ave,2026-08-28,Northside Handyman,Repairs,Repairs expense,850
+TXN00089,2841 W Armitage Ave,2026-08-22,Windy City Janitorial,Cleaning,Cleaning expense,450
+TXN00090,2841 W Armitage Ave,2026-08-07,Chicago Pest Solutions,Pest Control,Pest Control expense,350
+TXN00091,2841 W Armitage Ave,2026-09-12,Chicago Pest Solutions,Pest Control,Pest Control expense,300
+TXN00092,2841 W Armitage Ave,2026-09-13,Green Chicago Landscaping,Landscaping,Landscaping expense,475
+TXN00093,2841 W Armitage Ave,2026-08-06,ComEd,Utilities,Utilities expense,250
+TXN00094,2841 W Armitage Ave,2026-08-24,Chicago Pest Solutions,Pest Control,Pest Control expense,200
+TXN00095,2841 W Armitage Ave,2026-09-07,Northside Handyman,Repairs,Repairs expense,1025
+TXN00096,2841 W Armitage Ave,2026-09-12,Lakeside Contractors,Repairs,Repairs expense,325
+TXN00097,2841 W Armitage Ave,2026-09-12,Chicago Pest Solutions,Pest Control,Pest Control expense,425
+TXN00098,3150 N Central Park Ave,2026-08-23,Green Chicago Landscaping,Landscaping,Landscaping expense,175
+TXN00099,3150 N Central Park Ave,2026-08-10,Northside Handyman,Repairs,Repairs expense,900
+TXN00100,3150 N Central Park Ave,2026-08-23,Lakeview Cleaning,Cleaning,Cleaning expense,525
+TXN00101,3150 N Central Park Ave,2026-08-18,Green Chicago Landscaping,Landscaping,Landscaping expense,550
+TXN00102,3150 N Central Park Ave,2026-09-05,Windy City Janitorial,Cleaning,Cleaning expense,575
+TXN00103,3150 N Central Park Ave,2026-09-08,Northside Handyman,Repairs,Repairs expense,575
+TXN00104,3150 N Central Park Ave,2026-08-18,ComEd,Utilities,Utilities expense,750
+TXN00105,3150 N Central Park Ave,2026-08-23,Green Chicago Landscaping,Landscaping,Landscaping expense,100
+TXN00106,2524 W Belmont Ave,2026-08-05,Windy City Janitorial,Cleaning,Cleaning expense,200
+TXN00107,2524 W Belmont Ave,2026-08-06,Midwest Property Insurance,Insurance,Insurance expense,1300
+TXN00108,2524 W Belmont Ave,2026-08-27,Windy City Janitorial,Cleaning,Cleaning expense,450
+TXN00109,2524 W Belmont Ave,2026-08-24,Green Chicago Landscaping,Landscaping,Landscaping expense,325
+TXN00110,2524 W Belmont Ave,2026-09-06,Midwest Property Insurance,Insurance,Insurance expense,1450
+TXN00111,2524 W Belmont Ave,2026-08-10,ComEd,Utilities,Utilities expense,325
+TXN00112,2524 W Belmont Ave,2026-09-13,Northside Handyman,Repairs,Repairs expense,275
+TXN00113,2524 W Belmont Ave,2026-09-12,Green Chicago Landscaping,Landscaping,Landscaping expense,425
+TXN00114,2524 W Belmont Ave,2026-08-27,Chicago Pest Solutions,Pest Control,Pest Control expense,300
+TXN00115,2524 W Belmont Ave,2026-08-23,Lakeview Cleaning,Cleaning,Cleaning expense,425
+TXN00116,1735 N Rockwell St,2026-09-03,Green Chicago Landscaping,Landscaping,Landscaping expense,625
+TXN00117,1735 N Rockwell St,2026-08-15,Green Chicago Landscaping,Landscaping,Landscaping expense,400
+TXN00118,1735 N Rockwell St,2026-08-01,Northside Handyman,Repairs,Repairs expense,475
+TXN00119,1735 N Rockwell St,2026-08-09,Green Chicago Landscaping,Landscaping,Landscaping expense,300
+TXN00120,1735 N Rockwell St,2026-08-08,Green Chicago Landscaping,Landscaping,Landscaping expense,100
+TXN00121,1735 N Rockwell St,2026-08-12,Chicago Pest Solutions,Pest Control,Pest Control expense,200
+TXN00122,1735 N Rockwell St,2026-09-02,Chicago Pest Solutions,Pest Control,Pest Control expense,525
+TXN00123,1735 N Rockwell St,2026-08-05,Midwest Property Insurance,Insurance,Insurance expense,1100
+TXN00124,1735 N Rockwell St,2026-08-28,Midwest Property Insurance,Insurance,Insurance expense,500
+TXN00125,2908 W Logan Blvd,2026-09-06,Peoples Gas,Utilities,Utilities expense,525
+TXN00126,2908 W Logan Blvd,2026-09-10,Lakeside Contractors,Repairs,Repairs expense,800
+TXN00127,2908 W Logan Blvd,2026-08-26,Green Chicago Landscaping,Landscaping,Landscaping expense,100
+TXN00128,2908 W Logan Blvd,2026-09-09,Green Chicago Landscaping,Landscaping,Landscaping expense,450
+TXN00129,2908 W Logan Blvd,2026-08-06,Midwest Property Insurance,Insurance,Insurance expense,1150
+TXN00130,2908 W Logan Blvd,2026-08-28,ComEd,Utilities,Utilities expense,650
+TXN00131,2908 W Logan Blvd,2026-08-26,Chicago Pest Solutions,Pest Control,Pest Control expense,325
+TXN00132,2908 W Logan Blvd,2026-08-15,Midwest Property Insurance,Insurance,Insurance expense,1000
+TXN00133,2908 W Logan Blvd,2026-09-02,Lakeview Cleaning,Cleaning,Cleaning expense,600
+TXN00134,2908 W Logan Blvd,2026-09-02,City Water,Utilities,Utilities expense,350
+TXN00135,2908 W Logan Blvd,2026-09-11,Green Chicago Landscaping,Landscaping,Landscaping expense,200
+TXN00136,2908 W Logan Blvd,2026-08-10,Lakeview Cleaning,Cleaning,Cleaning expense,300
+TXN00137,2908 W Logan Blvd,2026-09-08,Lakeview Cleaning,Cleaning,Cleaning expense,200
+TXN00138,2908 W Logan Blvd,2026-08-12,Midwest Property Insurance,Insurance,Insurance expense,1250
+TXN00139,2908 W Logan Blvd,2026-09-13,Chicago Pest Solutions,Pest Control,Pest Control expense,550
+TXN00140,3317 W Diversey Ave,2026-08-10,Midwest Property Insurance,Insurance,Insurance expense,1200
+TXN00141,3317 W Diversey Ave,2026-08-29,Peoples Gas,Utilities,Utilities expense,700
+TXN00142,3317 W Diversey Ave,2026-09-07,Green Chicago Landscaping,Landscaping,Landscaping expense,125
+TXN00143,3317 W Diversey Ave,2026-08-20,Green Chicago Landscaping,Landscaping,Landscaping expense,450
+TXN00144,3317 W Diversey Ave,2026-08-04,Chicago Pest Solutions,Pest Control,Pest Control expense,375
+TXN00145,3317 W Diversey Ave,2026-09-11,Green Chicago Landscaping,Landscaping,Landscaping expense,150
+TXN00146,3317 W Diversey Ave,2026-08-30,Lakeside Contractors,Repairs,Repairs expense,1075
+TXN00147,3317 W Diversey Ave,2026-08-29,Northside Handyman,Repairs,Repairs expense,1050
+TXN00148,3317 W Diversey Ave,2026-08-21,Midwest Property Insurance,Insurance,Insurance expense,1450
+TXN00149,3317 W Diversey Ave,2026-08-04,Chicago Pest Solutions,Pest Control,Pest Control expense,450
+TXN00150,3317 W Diversey Ave,2026-08-06,Peoples Gas,Utilities,Utilities expense,600
+TXN00151,3317 W Diversey Ave,2026-08-03,Midwest Property Insurance,Insurance,Insurance expense,850
+TXN00152,3317 W Diversey Ave,2026-08-29,Midwest Property Insurance,Insurance,Insurance expense,1300
+TXN00153,2136 N Humboldt Blvd,2026-08-19,Green Chicago Landscaping,Landscaping,Landscaping expense,400
+TXN00154,2136 N Humboldt Blvd,2026-09-13,Chicago Pest Solutions,Pest Control,Pest Control expense,575
+TXN00155,2136 N Humboldt Blvd,2026-09-11,City Water,Utilities,Utilities expense,450
+TXN00156,2136 N Humboldt Blvd,2026-08-07,Peoples Gas,Utilities,Utilities expense,625
+TXN00157,2136 N Humboldt Blvd,2026-08-19,Midwest Property Insurance,Insurance,Insurance expense,900
+TXN00158,2136 N Humboldt Blvd,2026-08-22,Midwest Property Insurance,Insurance,Insurance expense,600
+TXN00159,2136 N Humboldt Blvd,2026-08-23,Northside Handyman,Repairs,Repairs expense,625
+TXN00160,2136 N Humboldt Blvd,2026-08-09,Midwest Property Insurance,Insurance,Insurance expense,1450
+TXN00161,2136 N Humboldt Blvd,2026-08-20,Midwest Property Insurance,Insurance,Insurance expense,1350
+TXN00162,2136 N Humboldt Blvd,2026-08-09,Chicago Pest Solutions,Pest Control,Pest Control expense,625
+TXN00163,3432 W. Fullerton,2026-08-08,ABC Plumbing,Plumbing,Emergency plumbing repair,1850
+TXN00164,3432 W. Fullerton,2026-08-17,ABC Plumbing,Plumbing,Pipe replacement,2400
+TXN00165,3432 W. Fullerton,2026-08-29,Chicago Water Restoration,Water Damage,Water damage remediation,1750
+TXN00166,3432 W. Fullerton,2026-09-04,ABC Plumbing,Plumbing,Follow-up plumbing repair,1300
+TXN00167,3432 W. Fullerton,2026-09-11,Northside Drywall,Repairs,Wall and ceiling repair,1900
