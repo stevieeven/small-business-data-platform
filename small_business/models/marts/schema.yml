@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: property_performance
+    description: >
+      One row per property containing occupancy, rent collection,
+      expenses, and net operating income metrics.
+
+    columns:
+      - name: property_id
+        description: "Unique identifier for each property."
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_properties')
+              field: property_id
+
+      - name: property_name
+        description: "Canonical property name."
+        tests:
+          - not_null
