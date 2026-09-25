@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from sqlalchemy.engine import URL
 import pandas as pd
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine, text, inspect
 
 
 # ---------------------------------------------------------
@@ -50,16 +50,41 @@ def load_csv_to_postgres(file_name, table_name):
     with engine.begin() as connection:
 
         connection.execute(
-            text(f'TRUNCATE TABLE raw."{table_name}"')
+            text("CREATE SCHEMA IF NOT EXISTS raw")
         )
 
-        df.to_sql(
-            name=table_name,
-            con=connection,
-            schema="raw",
-            if_exists="append",
-            index=False
+        inspector = inspect(connection)
+
+        table_exists = inspector.has_table(
+            table_name,
+            schema="raw"
         )
+
+        if table_exists:
+            print(f"Refreshing existing table raw.{table_name}...")
+
+            connection.execute(
+                text(f'TRUNCATE TABLE raw."{table_name}"')
+            )
+
+            df.to_sql(
+                name=table_name,
+                con=connection,
+                schema="raw",
+                if_exists="append",
+                index=False
+            )
+
+        else:
+            print(f"Creating new table raw.{table_name}...")
+
+            df.to_sql(
+                name=table_name,
+                con=connection,
+                schema="raw",
+                if_exists="fail",
+                index=False
+            )
 
     print(
         f"Loaded {len(df)} rows "
