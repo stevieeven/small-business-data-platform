@@ -83,6 +83,32 @@ if ($LASTEXITCODE -ne 0) {
 
 Write-Host "Infrastructure started successfully."
 
+Write-Host "Waiting for PostgreSQL to become healthy..."
+
+$MaxAttempts = 12
+$Attempt = 0
+
+do {
+    $Attempt++
+
+    $HealthStatus = docker inspect `
+        --format='{{.State.Health.Status}}' `
+        small_business_postgres
+
+    if ($HealthStatus -eq "healthy") {
+        Write-Host "PostgreSQL is healthy and ready."
+        break
+    }
+
+    Write-Host "PostgreSQL status: $HealthStatus ($Attempt/$MaxAttempts)"
+    Start-Sleep -Seconds 5
+
+} while ($Attempt -lt $MaxAttempts)
+
+if ($HealthStatus -ne "healthy") {
+    throw "PostgreSQL did not become healthy within the expected time."
+}
+
 # --------------------------------------------------
 # 4. Load raw data
 # --------------------------------------------------
