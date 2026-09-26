@@ -1,0 +1,66 @@
+version: 2
+
+unit_tests:
+  - name: test_property_performance_occupancy
+    description: >
+      Verifies that property_performance correctly calculates occupied
+      units, vacant units, total units, and occupancy rate.
+    model: property_performance
+
+    given:
+      - input: ref('stg_rent_roll')
+        rows:
+          - property_id: P999
+            property_name: Test Property
+            unit_number: "1"
+            occupancy_status: Occupied
+            monthly_rent: 1500
+            amount_paid: 1500
+            balance_due: 0
+
+          - property_id: P999
+            property_name: Test Property
+            unit_number: "2"
+            occupancy_status: Occupied
+            monthly_rent: 1500
+            amount_paid: 1500
+            balance_due: 0
+
+          - property_id: P999
+            property_name: Test Property
+            unit_number: "3"
+            occupancy_status: Occupied
+            monthly_rent: 1500
+            amount_paid: 1500
+            balance_due: 0
+
+          - property_id: P999
+            property_name: Test Property
+            unit_number: "4"
+            occupancy_status: Vacant
+            monthly_rent: 1500
+            amount_paid: 0
+            balance_due: 0
+
+      - input: ref('property_expenses')
+        rows:
+          - property_id: P999
+            property_name: Test Property
+            category: General
+            transaction_count: 1
+            total_expenses: 1000
+    expect:
+      rows:
+        - property_id: P999
+          property_name: Test Property
+          total_units: 4
+          occupied_units: 3
+          vacant_units: 1
+          occupancy_rate: 75.0
+          potential_rent: 6000
+          scheduled_rent: 4500
+          rent_collected: 4500
+          outstanding_rent: 0
+          collection_rate: 100.0
+          total_expenses: 1000
+          net_operating_income: 3500

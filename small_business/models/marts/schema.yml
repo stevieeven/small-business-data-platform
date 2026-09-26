@@ -3,13 +3,14 @@ version: 2
 models:
   - name: property_performance
     description: >
-      One row per property containing occupancy, rent collection,
-      expenses, and net operating income metrics.
+      Property-level financial and occupancy performance mart.
+      Contains one row per property and combines rent-roll metrics
+      with accounting expenses to support operational reporting.
 
     columns:
       - name: property_id
-        description: "Unique identifier for each property."
-        tests:
+        description: "Stable unique identifier for the property."
+        data_tests:
           - not_null
           - unique
           - relationships:
@@ -17,6 +18,211 @@ models:
               field: property_id
 
       - name: property_name
-        description: "Canonical property name."
-        tests:
+        description: "Canonical property name from the property master."
+        data_tests:
           - not_null
+
+      - name: total_units
+        description: "Total number of units associated with the property."
+
+      - name: occupied_units
+        description: "Number of units currently classified as occupied."
+
+      - name: vacant_units
+        description: "Number of units currently classified as vacant."
+
+      - name: occupancy_rate
+        description: >
+          Percentage of property units currently occupied.
+
+      - name: potential_rent
+        description: >
+          Total monthly rent value of all units, including vacant units.
+
+      - name: scheduled_rent
+        description: >
+          Monthly rent expected from occupied units only.
+          Vacant units are excluded.
+
+      - name: rent_collected
+        description: "Rent payments collected for the reporting period."
+
+      - name: outstanding_rent
+        description: >
+          Scheduled rent that has not yet been collected.
+          This represents a receivable and is not necessarily a realized loss.
+
+      - name: collection_rate
+        description: >
+          Percentage of scheduled rent that has been collected.
+
+      - name: total_expenses
+        description: >
+          Accounting expenses associated with the property from the
+          expense source data.
+
+      - name: net_operating_income
+        description: >
+          Simplified demo NOI calculated as rent collected minus
+          accounting expenses.
+
+  - name: portfolio_performance
+    description: >
+      Portfolio-level executive performance mart containing one row
+      summarizing occupancy, rent collection, vacancy loss, expenses,
+      and net operating income across all properties.
+
+    columns:
+      - name: total_units
+        description: "Total number of units across the portfolio."
+
+      - name: occupied_units
+        description: "Total number of occupied units across the portfolio."
+
+      - name: vacant_units
+        description: "Total number of vacant units across the portfolio."
+
+      - name: occupancy_rate
+        description: >
+          Portfolio occupancy ratio calculated as occupied units divided
+          by total units. Stored as a decimal ratio for BI formatting.
+
+      - name: potential_rent
+        description: >
+          Total monthly rent value of all units, including vacant units.
+
+      - name: vacancy_loss
+        description: >
+          Difference between potential rent and scheduled rent,
+          representing rent not scheduled because units are vacant.
+
+      - name: scheduled_rent
+        description: >
+          Total monthly rent expected from occupied units.
+
+      - name: rent_collected
+        description: "Total rent collected across the portfolio."
+
+      - name: outstanding_rent
+        description: >
+          Scheduled rent not yet collected. This is a receivable
+          and is not automatically considered realized loss.
+
+      - name: collection_rate
+        description: >
+          Portfolio collection ratio calculated as rent collected divided
+          by scheduled rent. Stored as a decimal ratio for BI formatting.
+
+      - name: total_expenses
+        description: >
+          Total accounting expenses across all properties.
+
+      - name: net_operating_income
+        description: >
+          Simplified demo portfolio NOI calculated as rent collected
+          minus accounting expenses.
+
+  - name: property_expenses
+    description: >
+      Property and expense-category level accounting mart used to analyze
+      operating expenses. Contains one row per property and expense category.
+
+    columns:
+      - name: property_id
+        description: "Stable unique identifier for the property."
+
+      - name: property_name
+        description: "Canonical property name from the property master."
+
+      - name: category
+        description: "Accounting expense category."
+
+      - name: transaction_count
+        description: "Number of expense transactions in the category."
+
+      - name: total_expenses
+        description: "Total accounting expense amount for the property and category."
+
+
+  - name: property_maintenance
+    description: >
+      Property and maintenance-category level operational mart used to
+      analyze work-order volume, status, and maintenance cost.
+
+    columns:
+      - name: property_id
+        description: "Stable unique identifier for the property."
+
+      - name: property_name
+        description: "Canonical property name from the property master."
+
+      - name: category
+        description: "Maintenance work-order category."
+
+      - name: work_order_count
+        description: "Total number of maintenance work orders in the category."
+
+      - name: open_work_orders
+        description: "Number of work orders currently classified as Open."
+
+      - name: completed_work_orders
+        description: "Number of work orders currently classified as Completed."
+
+      - name: maintenance_cost
+        description: >
+          Total cost recorded in maintenance work orders. This operational
+          cost is not automatically added to accounting expenses because
+          the two sources may overlap.
+
+
+  - name: maintenance_work_orders
+    description: >
+      Work-order level operational mart used as the maintenance action queue.
+      Contains one row per deduplicated maintenance work order.
+
+    columns:
+      - name: work_order_id
+        description: "Unique identifier for the maintenance work order."
+
+      - name: property_id
+        description: "Stable unique identifier for the associated property."
+
+      - name: property_name
+        description: "Canonical property name from the property master."
+
+      - name: unit_number
+        description: "Unit associated with the work order."
+
+      - name: reported_date
+        description: "Date the maintenance issue was reported."
+
+      - name: days_open
+        description: >
+          Age of the work order measured from its reported date against
+          the fixed demo snapshot date of 2026-09-14.
+
+      - name: age_bucket
+        description: >
+          Human-readable aging category: 0-7 days, 8-14 days,
+          15-30 days, or 31+ days.
+
+      - name: age_bucket_sort
+        description: "Numeric sort key corresponding to the work-order age bucket."
+
+      - name: completed_date
+        description: "Date the work order was completed, when applicable."
+
+      - name: category
+        description: "Maintenance issue category."
+
+      - name: status
+        description: "Normalized work-order status."
+
+      - name: vendor
+        description: "Vendor assigned to or associated with the work order."
+
+      - name: cost
+        description: "Cost recorded for the maintenance work order."
+
+      - name: notes
+        description: "Source notes describing the maintenance issue."
