@@ -4,6 +4,11 @@ An end-to-end data platform for a fictional property management company,
 built to demonstrate how a small business can replace manual spreadsheet
 reporting with an automated, reliable analytics workflow.
 
+**Tech Stack:** Python • PostgreSQL • dbt Core • Metabase • Docker • PowerShell
+
+**Highlights:** Automated ingestion • Layered data modeling • Data quality tests •
+dbt unit testing • Data lineage • Business KPI modeling • One-command pipeline
+
 > **Note:** All business data in this project is synthetic and was generated
 > specifically for demonstration purposes.
 
