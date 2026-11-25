@@ -75,7 +75,9 @@ Write-Host "Docker configuration is valid."
 Write-Host ""
 Write-Host "[3/6] Starting infrastructure..."
 
-docker compose -f (Join-Path $ProjectRoot "docker-compose.yml") up -d
+# Preserve existing Metabase containers; upgrades are a separate maintenance operation.
+# Use the persistence overlay for new installations.
+docker compose -f (Join-Path $ProjectRoot "docker-compose.yml") -f (Join-Path $ProjectRoot "docker-compose.metabase-persistence.yml") up -d --no-recreate
 
 if ($LASTEXITCODE -ne 0) {
     throw "Failed to start Docker infrastructure."
