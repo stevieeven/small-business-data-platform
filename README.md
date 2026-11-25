@@ -217,6 +217,13 @@ excluded from version control.
 
 ### 4. Run the Pipeline
 
+> **Existing installations:** Before changing container images or recreating Metabase,
+> follow the [Metabase backup and persistence guide](docs/metabase-persistence.md).
+> The pipeline preserves existing containers with `--no-recreate`; new security
+> settings require a separately validated maintenance cutover. Fresh installations
+> use a named volume for the Metabase application database.
+
+
 From the project root:
 
 ```powershell
