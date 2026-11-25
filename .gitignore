@@ -46,3 +46,9 @@ desktop.ini
 # -----------------------------
 *.tmp
 *.temp
+
+# Metabase application database backups (contain sensitive configuration)
+/backups/
+*.mv.db
+*.h2.db
+*.trace.db
